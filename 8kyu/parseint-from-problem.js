@@ -13,3 +13,10 @@ function getAge(inputString){
   function getAge(inputString){
   return parseInt(inputString[0]); 
 }
+
+//How it works: parseInt has a helpful behavior where it parses 
+// a string from left to right and stops as soon as it encounters 
+// a character that isn't a number.
+//The Logic: In a string like "5 years old", it sees the '5', 
+// keeps it, sees the space ' ', and stops there, returning the
+// integer 5.
